@@ -1,0 +1,52 @@
+/* estilos para la vista previa de la fotografía */
+#preview-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#preview-image {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+#remove-image {
+  margin-top: 10px;
+}
+
+.col-md-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*  estilos responsivos */
+@media (max-width: 768px) {
+  .row[style="padding-left: 150px;"] {
+    padding-left: 0 !important;
+  }
+
+  .col-md-8[style="padding: 55px;"] {
+    padding: 15px !important;
+  }
+
+  .col-md-3.mb-3.p-2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .container-fluid.mt-5 {
+    padding: 10px !important;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+}
